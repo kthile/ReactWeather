@@ -3,7 +3,7 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-
+const API_KEY = "49712360615d648e2109d1fad81f237c";
 
 class App extends Component {
   //default state
