@@ -1,0 +1,19 @@
+html,
+* {
+  font-family: Poppins;
+  background: $background-color;
+  color: $primary-color;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  margin: 15px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}

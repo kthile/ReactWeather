@@ -1,0 +1,71 @@
+.weather-container {
+  display: flex;
+  flex-flow: column nowrap;
+  //border: $border;
+  color: $primary-color;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .weather-card {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: left;
+
+    & span:nth-child(2) {
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 140%;
+    }
+    & span:nth-child(3) {
+      //targets the temperature span
+      border-bottom: 1px solid $secondary-color;
+      margin-bottom: 10px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 120%;
+    }
+    & span {
+      padding: 12px;
+      & span:first-child {
+        //targets the labels like Humidity, Condition, WindSpeed, etc.
+        color: $secondary-color;
+      }
+    }
+    /*Configure size in Weather.js*/
+    & .weather-icon {
+      position: relative;
+      text-align: center;
+      //border: $border;
+      height: 200px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+
+      & > * {
+        //the weather icon svg
+        height: 100%;
+      }
+      & .__highlow {
+        font-size: 100%;
+        float: right;
+        //border: $border;
+        height: auto;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        & p:first-child {
+          color: $primary-color;
+        }
+        & p:last-child {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+
+  .none {
+    display: none;
+  }
+}
