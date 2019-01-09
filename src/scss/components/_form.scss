@@ -1,7 +1,7 @@
 .weather-form-container {
   display: flex;
   //border: $border;
-  height: auto;
+
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,11 @@
     max-width: 80%;
     text-align: center;
     margin-bottom: 10px;
+    display:flex;
+    flex-flow: column;
 
     & input {
+      
       padding-top: 15px;
       padding-left: 5px;
       color: $secondary-color;

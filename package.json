@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "node-sass": "^4.9.4",
+    "npm": "^6.5.0",
     "react": "^16.5.2",
     "react-animated-weather": "^1.0.3",
     "react-dom": "^16.5.2",
