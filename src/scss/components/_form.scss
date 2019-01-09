@@ -14,11 +14,10 @@
     max-width: 80%;
     text-align: center;
     margin-bottom: 10px;
-    display:flex;
+    display: flex;
     flex-flow: column;
 
     & input {
-      
       padding-top: 15px;
       padding-left: 5px;
       color: $secondary-color;
